@@ -15,5 +15,11 @@ function converter(){
  else if (select === "horaminuto") {
   valor = input + " horas equivalem a " + input * 60 + " minutos";
  }
+ else if (select === "milissegundosegundo") {
+  valor = input + " milissegundos equivalem a " + input/ 1000  + " segundos";
+ }
+ else if (select === "segundomilissegundo") {
+  valor = input + " segundos equivalem a " + input* 1000  + " milissegundos";
+ }
  h2.innerHTML = valor;
 };
